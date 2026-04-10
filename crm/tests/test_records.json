@@ -185,6 +185,26 @@
 				"doctype": "Has Role",
 				"parentfield": "roles",
 				"role": "Sales User"
+			},
+			{
+				"doctype": "Has Role",
+				"parentfield": "roles",
+				"role": "CRM User"
+			},
+			{
+				"doctype": "Has Role",
+				"parentfield": "roles",
+				"role": "CRM Manager"
+			},
+			{
+				"doctype": "Has Role",
+				"parentfield": "roles",
+				"role": "Business Development Manager"
+			},
+			{
+				"doctype": "Has Role",
+				"parentfield": "roles",
+				"role": "Business Development User"
 			}
 		],
 		"user_type": "System User"
