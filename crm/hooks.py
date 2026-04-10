@@ -1,11 +1,11 @@
 app_name = "crm"
-app_title = "Frappe CRM"
+app_title = "Peunier CRM"
 app_publisher = "Frappe Technologies Pvt. Ltd."
-app_description = "Kick-ass Open Source CRM"
-app_email = "shariq@frappe.io"
+app_description = "An Open Source distribution from Frappe"
+app_email = "connect@peunier.com"
 app_license = "AGPLv3"
 app_icon_url = "/assets/crm/images/logo.svg"
-app_icon_title = "CRM"
+app_icon_title = "Peunier CRM"
 app_icon_route = "/crm"
 
 # Apps
@@ -16,7 +16,7 @@ add_to_apps_screen = [
 	{
 		"name": "crm",
 		"logo": "/assets/crm/images/logo.svg",
-		"title": "CRM",
+		"title": "Peunier CRM",
 		"route": "/crm",
 		"has_permission": "crm.api.check_app_permission",
 	}
@@ -284,21 +284,21 @@ standard_dropdown_items = [
 		"route": "#",
 		"is_standard": 1,
 	},
-	{
-		"name1": "login_to_fc",
-		"label": "Login to Frappe Cloud",
-		"type": "Route",
-		"route": "#",
-		"is_standard": 1,
-	},
-	{
-		"name1": "about",
-		"label": "About",
-		"type": "Route",
-		"icon": "info",
-		"route": "#",
-		"is_standard": 1,
-	},
+	# {
+	# 	"name1": "login_to_fc",
+	# 	"label": "Login to Frappe Cloud",
+	# 	"type": "Route",
+	# 	"route": "#",
+	# 	"is_standard": 1,
+	# },
+	# {
+	# 	"name1": "about",
+	# 	"label": "About",
+	# 	"type": "Route",
+	# 	"icon": "info",
+	# 	"route": "#",
+	# 	"is_standard": 1,
+	# },
 	{
 		"name1": "separator",
 		"label": "",
