@@ -20,7 +20,7 @@ class CRMInvitation(Document):
 		email_sent_at: DF.Datetime | None
 		invited_by: DF.Link | None
 		key: DF.Data | None
-		role: DF.Literal["", "Sales User", "Sales Manager", "System Manager"]
+		role: DF.Literal["", "Sales User", "Sales Manager", "System Manager", "CRM User", "CRM Manager", "BDA User", "BDA Manager"]
 		status: DF.Literal["", "Pending", "Accepted", "Expired"]
 	# end: auto-generated types
 
@@ -39,7 +39,7 @@ class CRMInvitation(Document):
 		if frappe.local.dev_server:
 			print(f"Invite link for {self.email}: {invite_link}")  # nosemgrep
 
-		title = "Frappe CRM"
+		title = "Peunier CRM"
 		template = "crm_invitation"
 
 		frappe.sendmail(
